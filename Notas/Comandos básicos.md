@@ -1,7 +1,5 @@
 ## Comandos básicos
 
-
-
 ##### Crea un contenedor
 
 ```bash
@@ -67,36 +65,20 @@ mantener el servicio
 
 La desventaja de ejecutar así el contenedor, será que al finalizar el proceso se perderá la ejecución y al listar los contendores activos no lo podremos ver.
 
-
-
 ![WhatsApp Image 2022-10-22 at 20.04.02.jpeg](/home/genaro-javier/Descargas/WhatsApp%20Image%202022-10-22%20at%2020.04.02.jpeg)
 
 ![Screenshot_20221022_201238.png](/home/genaro-javier/Descargas/Screenshot_20221022_201238.png)
 
-
-
 Esto lo podemos arreglar si agregar el flag -d que especifica que se ejecute en segundo plano. 
-
-
 
 ![](/home/genaro-javier/.config/marktext/images/2022-10-22-20-19-51-image.png)
 
-
-
 De esta forma ya podemos ejecutar el contenedor de ubuntu en segundo plano. 
-
-
 
 ![](/home/genaro-javier/.config/marktext/images/2022-10-22-20-20-55-image.png)
 
-
-
 Otro ejemplo ahora ejecutando NGINX 
-
-
 
 #### Notas adicionales
 
 Un contenedor se apaga cuando no tiene ningún proceso corriendo. 
-
-
