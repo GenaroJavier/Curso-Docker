@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
 :root {
     --color_1: rgb(142, 202, 230);
     --color_2: rgb(33, 158, 188);
@@ -12,13 +15,14 @@
     box-sizing: border-box;
 }
 
+
 .primary-container {
     height: 80vh;
     background-color: var(--color_1);
-    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 48vw 48vw;
 }
 
 
@@ -70,3 +74,36 @@
     color: white;
 }
 
+.menu {
+    width: 100%;
+    height: 70px;
+    background-color: var(--color_3);
+}
+
+.img_logo {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_options {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_menu {
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
